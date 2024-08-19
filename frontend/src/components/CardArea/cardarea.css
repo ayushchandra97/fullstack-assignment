@@ -1,0 +1,25 @@
+.card-grid {
+    position: relative;
+    margin: 5rem 0 5rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 21rem);
+    gap: 3rem;
+    justify-content: center;
+    animation-name: card-animation;
+    animation-duration: 0.5s;
+}
+
+@keyframes card-animation {
+    0% {
+        left: -720px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .card-grid {
+        grid-template-columns: repeat(1, 21rem);
+    }
+}

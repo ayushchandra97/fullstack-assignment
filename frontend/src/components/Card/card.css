@@ -1,0 +1,20 @@
+.card {
+    background-color: #F4F6F8;
+    width: 21rem;
+    min-height: 7.5rem;
+    border: 1px solid #c0c8d3;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 3px #c0c8d3;
+}
+
+.card h4 {
+    padding: 0.75rem 1rem 0.2rem 1rem;
+    color: #423A3A;
+    border-bottom: 1px solid #c0c8d3;
+}
+
+.card p {
+    color: #616365;
+    padding: 0.2rem 1rem 0 1rem;
+    margin-bottom: 0.7rem;
+}

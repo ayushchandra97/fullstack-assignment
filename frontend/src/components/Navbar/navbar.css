@@ -1,0 +1,45 @@
+.main-header {
+    height: 3.5rem;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-bar {
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 13rem;
+}
+
+.nav-list {
+    display: inherit;
+}
+
+.nav-list > h4, span {
+    margin-right: 0.75rem;
+}
+
+.nav-bar > button {
+    padding: 0.4rem 0.7rem;
+    background-color: #191A1B;
+    color: #fff;
+    border-radius: 0.25rem;
+    border: 1px solid #505050;
+}
+
+.nav-bar > button:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 750px) {
+    .nav-bar {
+        width: 100%;
+        margin: 0;
+        justify-content: space-around;
+    }
+
+}
