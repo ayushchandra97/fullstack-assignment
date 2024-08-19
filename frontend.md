@@ -4,11 +4,11 @@
 
 We can implement shared functionality accross a component tree in many ways:
 
-    Context API : Context API allows us to share data, functions, state etc. across the component tree without having to pass down props manually at every level. We can use `createContext` in the context file and can access the data, functions, state etc. by wrapping the App inside context provider and using `useContext` hook within components.
+Context API : Context API allows us to share data, functions, state etc. across the component tree without having to pass down props manually at every level. We can use `createContext` in the context file and can access the data, functions, state etc. by wrapping the App inside context provider and using `useContext` hook within components.
 
-    Custom Hooks : These allow us to encapsulate shared logic that can be used across multiple components. These can be used just like inbuilt hooks.
+Custom Hooks : These allow us to encapsulate shared logic that can be used across multiple components. These can be used just like inbuilt hooks.
 
-    Props : We can share functionality by passing data as a prop to child components. We can then acccess them using props.property or using object destructuring in child components.
+Props : We can share functionality by passing data as a prop to child components. We can then acccess them using props.property or using object destructuring in child components.
 
 
 2. Why is the `useState` hook appropriate for handling state in a complex component?
